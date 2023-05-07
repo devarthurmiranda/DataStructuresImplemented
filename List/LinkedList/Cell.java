@@ -1,4 +1,3 @@
-package LinkedList;
 public class Cell {
     Cell next;
     Object element;
