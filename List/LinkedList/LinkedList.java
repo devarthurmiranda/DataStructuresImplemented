@@ -49,7 +49,7 @@ public class LinkedList {
     }
 
     public Object get(int position){ // Get the element in a specific position
-        return this.getCell(position).getElement();
+        return this.getCell(position).getItem();
     }
 
     public void removeBeginning(){
@@ -83,7 +83,7 @@ public class LinkedList {
             Cell current = previous.getNext();
             previous.setNext(current.getNext());
             current.setNext(null);
-            current.setElement(null);
+            current.setItem(null);
             this.total--;
             if(this.total == position){
                 this.last = previous;
@@ -94,7 +94,7 @@ public class LinkedList {
     public boolean has(Object element){
         Cell current = this.first;
         while(current != null){
-            if(current.getElement().equals(element)){
+            if(current.getItem().equals(element)){
                 return true;
             }
             current = current.getNext();
