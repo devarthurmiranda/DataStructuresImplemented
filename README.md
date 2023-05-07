@@ -8,7 +8,5 @@
 
 <h2 align="center">Structures already implemented</h2>
 
-* Linked List
- 
-![image](https://user-images.githubusercontent.com/83318673/235684644-12dc4975-7fb9-4148-91ac-3aa51ae40773.png)
-
+- List
+  - Linked List
