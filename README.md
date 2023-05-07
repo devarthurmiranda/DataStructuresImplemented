@@ -10,3 +10,4 @@
 
 - List
   - Linked List
+- Stack
