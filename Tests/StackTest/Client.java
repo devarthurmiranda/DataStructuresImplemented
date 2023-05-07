@@ -13,7 +13,7 @@ public class Client {
      public static void main(String[] args) {
         
         // Initializing variables.
-        String msg = JOptionPane.showInputDialog("Digite uma mensagem: ");
+        String msg = JOptionPane.showInputDialog("Type a message: ");
         int size = msg.length();
         Stack stack = new Stack(size);
         StringBuilder result = new StringBuilder();
