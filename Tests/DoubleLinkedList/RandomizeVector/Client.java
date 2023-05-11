@@ -1,4 +1,4 @@
-package Tests.DoubleLinkedList;
+package Tests.DoubleLinkedList.RandomizeVector;
 import List.DoubleLinkedList.DoubleLinkedList;
 
 public class Client {
