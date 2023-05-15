@@ -10,4 +10,6 @@
 
 - List
   - Linked List
+  - Double Linked List
+ 
 - Stack
